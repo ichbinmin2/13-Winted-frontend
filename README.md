@@ -66,7 +66,7 @@ https://www.youtube.com/watch?v=QYjbZsKxNwA&t=25s
 
 ### 추천 페이지 : 추천 조회
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/25649913-12f8-4bcf-ad21-2d1cfe67440b/2__1.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T094511Z&X-Amz-Expires=86400&X-Amz-Signature=e6fcd6a904e52d4bfb737c2d546727b1e070c2e7364ed53e26537e7c4a1bb6ae&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222__1.gif%22&x-id=GetObject)
+![2__1](https://user-images.githubusercontent.com/53133662/160775344-d38bee7e-1f74-4eb6-a980-cd8e967d6922.gif)
 
 - 각각의 페이지를 클릭할 때마다 해당 컴포넌트 페이지가 보여집니다.
 - 클릭 시에 페이지 이동이 아니라, 컴포넌트만 변경이 됩니다.
@@ -76,14 +76,14 @@ https://www.youtube.com/watch?v=QYjbZsKxNwA&t=25s
 
 ### 추천 페이지 : 추천인 삭제
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6c323aba-1c7b-4fdf-abf1-26edc790eca1/AnyConv.com____2021-02-27__9.25.22.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T094644Z&X-Amz-Expires=86400&X-Amz-Signature=2731d523b6669a6735c6efb62aaa1b5d2ce0039398d098c14f08797aca74085b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22AnyConv.com____2021-02-27__9.25.22.gif%22&x-id=GetObject)
+<img width="85%" src="https://user-images.githubusercontent.com/53133662/160775372-eefc97a7-eeb2-42f8-91c9-3513207ce809.gif" />
 
 - 추천인 리스트를 삭제합니다.
 - 삭제 버튼을 클릭할 때마다 클릭한 해당 `id` 를 쿼리스트링에 담아서 `delete` 요청을 보내고 `body` 안에 `state` 를 `""` 값으로 설정합니다. `filter` 를 사용해서 해당 리스트가 선택한 `id`가 동일한지를 구분하여 추천인 리스트를 리랜더링 합니다.
 
 ### 추천 페이지 : Modal 상세 기능
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bae5858-d194-463a-9af6-11244c57477a/AnyConv.com____2021-02-27__8.33.33.gif](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/76d4fd56-bab0-4a0c-a4e4-669a4c5fe061/2__2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T094747Z&X-Amz-Expires=86400&X-Amz-Signature=31e94055dca5b26273bfc791c30dddfdca0cc281c277555eb6e842ef43bceac3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222__2.gif%22&x-id=GetObject)
+![2__3](https://user-images.githubusercontent.com/53133662/160775384-2a3a5f6c-d3e3-42c2-a959-14f304f48d90.gif)
 
 - 추천 요청의 페이지를 클릭하면 모달로 추천 요청의 상세 페이지를 확인할 수 있습니다.
 - 각각의 메뉴를 클릭할 때마다 해당 컴포넌트만 변경이 됩니다.
@@ -91,7 +91,7 @@ https://www.youtube.com/watch?v=QYjbZsKxNwA&t=25s
 
 ### 추천 페이지 : 추천서 수정 기능
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bae5858-d194-463a-9af6-11244c57477a/AnyConv.com____2021-02-27__8.33.33.gif](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/76d4fd56-bab0-4a0c-a4e4-669a4c5fe061/2__2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220325T094747Z&X-Amz-Expires=86400&X-Amz-Signature=31e94055dca5b26273bfc791c30dddfdca0cc281c277555eb6e842ef43bceac3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222__2.gif%22&x-id=GetObject)
+<img width="85%" src="https://user-images.githubusercontent.com/53133662/160775400-13daeb45-a67d-48fb-ad6c-2f3a36057fe7.gif" />
 
 - 추천서 수정/저장 기능입니다.
 - 추천사 수정에서 수정 버튼을 클릭하면 이미 `props`로 받아온 해당 `id` 와 `contents` `state`를 `body`에 다시 담아서 `patch`로 서버에 요청을 보냅니다.
