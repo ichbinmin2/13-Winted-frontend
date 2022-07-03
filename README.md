@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=QYjbZsKxNwA&t=25s
 
 </br>
 
-## 구현 기능 상세 소개
+## 구현 기능 상세 소개(민지연)
 
 ### 추천 페이지 : 추천 조회
 
