@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=QYjbZsKxNwA&t=25s
 
 </br>
 
-## 구현 기능
+## 구현 기능(민지연)
 
 ### 회원 추천 페이지
 
